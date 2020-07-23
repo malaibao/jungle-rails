@@ -1,10 +1,10 @@
 // Vendor
-@import "bootstrap-sprockets";
-@import "bootstrap";
-@import "font-awesome";
+@import 'bootstrap-sprockets';
+@import 'bootstrap';
+@import 'font-awesome';
 
 // App
-@import "products";
+@import 'products';
 
 // Global
 body {
@@ -14,4 +14,12 @@ body {
 // Bootstrap adjustments
 form.button_to {
   display: inline;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.text-center {
+  text-align: center;
 }
